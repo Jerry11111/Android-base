@@ -12,5 +12,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+    <Button
+          android:id="@+id/false_button" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="15dp"
+            android:text="msg" />
+    <Button   
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="普通Dialog"  
+         android:layout_marginTop="60dp"
+        android:id="@+id/btn_diaNormal"/> 
 
 </RelativeLayout>
